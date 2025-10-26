@@ -38,6 +38,10 @@
         color: rgb(116, 83, 29);
     }
 
+    .buttom-text {
+        color: rgb(255, 255, 255);
+    }
+
     .highlight-text {
         color: #ffa12e;
         /* เปลี่ยนเป็นสีที่คุณต้องการ */
@@ -107,4 +111,28 @@
         /* สีชมพูอ่อนอีกแบบ */
         color: #5c3b0d;
         /* สีตัวอักษรตอนพับ */
+    }
+
+    .custom-footer {
+        background-color: #fdb8cf;
+        /* ตัวอย่างสีชมพูสด */
+        color: white;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    /* ถ้าอยากให้มีเอฟเฟกต์เวลาเลื่อนถึงท้ายเว็บ */
+    .custom-footer {
+        background: linear-gradient(135deg, #fb9dd5, #f59d6d);
+    }
+
+    .nav-link {
+        color: #343434;
+        /* สีปกติของเมนู */
+        transition: color 0.3s ease;
+    }
+
+    .nav-link:hover {
+        color: #ff7262;
+        /* สีเมื่อชี้เมาส์ เช่น ชมพูสด */
     }
